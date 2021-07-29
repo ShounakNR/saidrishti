@@ -1,0 +1,215 @@
+:root {
+  --keyword-color: #CC7832;
+  --datatype-color: #9A76AA;
+  --declaration-color: #FFC66D;
+  --comment-color: #808080;
+  --background-color: #2b2b2b;
+  --text-color: #a9b7c6;
+}
+.btn{
+  margin-bottom: 5px;
+}
+.img1{
+  border-color: rgba(8, 153, 40, 0.767);
+}
+.fadeIn{
+  border-radius: 100px;
+}
+h2 {
+  margin-top: 0.5rem;
+}
+
+section{
+  padding: 10px;
+}
+body {
+  font-family: "Exo", sans-serif;
+  font-display: fallback;
+}
+
+.darcula {
+  font-family: 'Times New Roman';
+  background-color: var(--background-color);
+  color: white;
+}
+
+.jumbotron {
+  height: 100vh;
+  margin-bottom: 2rem;
+  padding-top: 100px;
+  flex-wrap: wrap-reverse;
+}
+
+.return {
+  color: rgba(230, 122, 22, 0.767);
+}
+
+.keyword1 {
+  color: rgb(166, 81, 177);
+}
+
+.keyword {
+  color: rgba(1, 9, 15, 0.945);
+}
+
+.datatype {
+  color:  rgb(8, 192, 152) ;
+}
+
+.declaration {
+  color: var(--declaration-color);
+}
+
+.comment {
+  color: var(--comment-color);
+  font-style: italic;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link {
+  margin: .2em;
+}
+
+.darknav {
+  background: var(--background-color);
+  color: white;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header2{
+  font-size: medium;
+}
+.header1{
+  font-size: 1em;
+}
+.typewriter {
+  display: flex;
+  font-family: monospace;
+  flex-direction: column;
+  align-items: center;
+}
+.phone_number{
+  display: flex;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-stretch: normal;
+  padding: 20px ;
+}
+.logo{
+  padding-right: 1px;
+}
+.typewriter p {
+  display: inline-flexbox;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(24, 14, 2);
+  }
+.map_responsive{
+  /* overflow:hidden; */
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+/* .map_responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+} */
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: #B889E2;
+  }
+}
+
+.card {
+  width: 15em;
+  margin: 1em 1em 1em 1em;
+}
+
+/* Style all font awesome icons */
+
+.fab {
+  padding: .5em;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.fab:focus {
+  opacity: 0.7;
+  color: black;
+}
+
+
+.fa-linkedin {
+  background: rgb(5, 43, 99);
+  color: white;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .typewriter h1 {
+    font-size: 1.5em;
+  }
+
+  .typewriter p {
+    font-size: 1em;
+  }
+
+  .card {
+    width: auto;
+    margin: 1em 1em 1em 1em;
+  }
+}
+
+.card img {
+  max-height: 7em;
+}
